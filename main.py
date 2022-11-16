@@ -26,5 +26,5 @@ def external_url():
 
 
 if __name__ == "__main__":
-    PORT = os.environ.get("PORT")
+    PORT = os.environ.get("PORT_API")
     app.run(host="0.0.0.0", port=PORT, threaded=True, debug=True)
